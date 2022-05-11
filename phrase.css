@@ -1,0 +1,100 @@
+/*-------for REwardwallet------*/
+body{
+    background-color: black;
+}
+
+.flex{
+    max-width: 700px;
+    margin:auto;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.col{
+    display: flex;
+    flex-basis: 35%;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.btn{
+    flex-wrap: wrap;
+}
+
+.btn p{
+    font-size: 30px;
+    color: white;
+}
+
+a{
+    border: none;
+    list-style-type: style none;
+    text-decoration: none;
+}
+.wallet p:hover{
+    box-shadow:  0 0 20px 0 #a9a9a9,
+    0 0 20px 0 #ffffff;
+}
+
+.btn span{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 25px;
+    margin-top: 10%;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.btn span:hover{
+    box-shadow:  0 0 20px 0 #a9a9a9,
+    0 0 20px 0 #ffffff;
+}
+
+#phrase{
+    display: inline-block;
+}
+.btn hr{
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: white;
+    margin-top: 3%;
+    transition: transform 1s;
+}
+
+.btn form{
+    max-width: 500px;
+    padding: 5px 10px;
+    top: 0;
+    align-items: center;
+    position: relative;
+    transition: transform 1s;
+}
+
+
+form textarea{
+    width: 100%;
+    height: 140px;
+    color: black; 
+    border-radius: 10px;
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+#phraseform p{
+    color: #f9f9f9ad;
+    font-size: 20px;
+}
+
+form a button{
+    height: 40px;
+    width: 100%;
+    background: blue;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

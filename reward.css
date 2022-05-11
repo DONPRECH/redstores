@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background:steelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#claim{
+    max-width: 800px;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#reward{
+    margin-top: 20%;
+    margin-bottom: 30%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    background: rgb(12, 135, 235);
+    box-shadow:  6px -6px 8px rgb(23, 88, 141),
+    -6px 6px 8px rgb(3, 42, 73);
+}
+#reward > button{
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    font-weight: 300;
+}
+#reward > button:hover{
+    background: red;
+}
+.discord{
+    display: flex;
+    justify-content: space-between;
+}
+.discord > img{
+    height: 40px;
+    width: 40px;
+    margin: 0;
+}
+.discord > p{
+    font-size: 20px;
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.discord > p:hover{
+    color: black;
+}
+.display{
+    display: inline-block;
+    align-items: center;
+}

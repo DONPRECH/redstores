@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+
+
+/* Style the header */
+.head {
+    padding: 10px 16px;
+    background: rgb(255, 255, 255);
+    height: 130px;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-wrap: wrap;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col{
+    flex-basis: 30%;
+    gap: 0%;
+    min-width:100px;
+    color: rgb(85, 85, 228);
+}
+.col img{
+    height: 150px;
+    padding: 50px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.col h1{
+    font-size: 30px;
+    margin: 25px 0;
+    text-align: center;
+}
+.containers{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.connect{
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.connect h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color:rgb(45, 109, 109);
+}
+.connect p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    color:rgb(46, 122, 122);
+}
+.smallcontainer{
+    max-width: 1050px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.rows{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#deg{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.col2 p{
+    font-weight: 400;
+    color: rgb(85, 85, 228);
+    text-align: center;
+    font-size: 20px;
+}
+#deg:hover{
+    background-color: #f2f2f2;
+    box-shadow:inset -4px -4px 8px #a9a9a9,inset 5px 5px 7px #ffffff;
+}
+a{
+    text-decoration: none;
+    color: rgb(85, 85, 228) ;
+}
+.small-container{
+    max-width: 750px;
+    margin: auto; 
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.display{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.discord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 20%;
+    gap: 0;
+}
+
+.discord > p:hover{
+    color: black;
+}
+
+.discord > img{
+    height: 37px;
+    width:37px;
+    margin: 0;
+}
+.discord > img:hover{
+    color: rgb(85, 85, 228);
+}
+.discord > p{
+    font-size: 20px;
+    color: rgb(85, 85, 228);
+    margin: 0 0;
+    cursor: pointer;
+}
+
